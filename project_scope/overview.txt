@@ -1,0 +1,29 @@
+Generation of JSON file which gets translated by the application
+1.  Database analysis
+    1.  For each table CRUD with change log and access control. All field values should have a default value if empty.
+    2.  Linked Create record user assisted(table1(session, selected on page) -> table2)
+    3.  Generate report data structure, user assisted, with MySQL functions.
+    4.  Allow user to type in his own query.
+2.  Workflow generation
+    0.  Record creation and reports linking
+    1.  Linked Create record user assisted(table1(session, selected on page) -> table2)
+    2.  Branching on a single page    
+    3.  Menu creation
+    4.  Pagination
+3.  Layout creation
+    1.  Page{access control} creation
+    2.  Header creation
+    3.  LeftNav
+    4.  RightNav
+    5.  Menu creation{link, function}
+
+3.  Libraries
+    1.  PHP function Libraries
+    2.  JavaScript function Libraries
+    3.  CSS Libraries
+    4.  D3 Libraries
+
+1. Server
+    1.  Table level{functions, access control}
+    2.  Field level{functions(conversions), conditions, access control}
+    3.  Session management{application state, access control}
