@@ -1,0 +1,17 @@
+MySQL
+0.  Build a database for category_language    
+1.  Map all MySQL field types to functions, and constraints
+Browser
+0.  Map all JavaScript functions to application
+1.  Map all BootStrap classes to use cases
+Analysis
+0.  Get all tables from the database
+1.  Get all the field information from the database and map to the server datastructure.
+2.  Build a basic UI for mapping tables
+    1.  Select table One
+    2.  Select table Two build a mapping
+        1.  Select the join link
+        2.  Select functions to be applied on each field
+        3.  Define UI and CSS functions on each field
+    3.  Make this one table
+    4.  Select table three Goto step 2

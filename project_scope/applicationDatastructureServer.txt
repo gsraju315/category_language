@@ -1,0 +1,39 @@
+By default all array fields that are not applicable are set to false.
+Server DataStructure:
+0.  field_array
+    1.  primary_key
+    2.  field_type
+    3.  constraint
+    4.  field_length
+    5.  default_value
+1.  table_array
+    1.  fields_array
+    2.  keys{primary, foregin}
+    3.  roles_array(Define role data structure with field level access)
+    4.  MySql functions to be applied => fields 
+    5.  JavaScript functions to be applied => fields 
+    6.  CSS Rules to be applied => fields
+    7.  PHP functions to be applied => fields
+2.  roles_array
+    1.  role_name
+    2.  table_array
+        1.  fields_array
+            1.  field_access
+4.  tables_array
+    1.  tables_list
+    2.  fields_mapped_function(conversion)
+    3.  fields_mapped_to_mysql_function
+    4.  custom_query
+5.  data_source
+    1.  {table_array, tables_array}
+6.  page_array
+    1.  layout_array
+        1.  data_source{form, report, session}
+    3.  map_function, reduce_function
+    2.  link_to_next_page, link_to_previous_page
+7.  work_flow_array(Default Simple CRUD on all tables)
+    1.  pages
+    2.  input_fields_array
+        1.  functions_on_fields
+
+input_fields_array <-> page{reduce_function<-} <-> data_source <-> {tables_array{table_array, roles}, table_array{roles}}
