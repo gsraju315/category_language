@@ -1,6 +1,7 @@
 By default all array fields that are not applicable are set to false.
 Server DataStructure:
 0.  field_array
+    0.  To database and from database
     1.  primary_key
     2.  field_type
     3.  constraint

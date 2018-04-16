@@ -1,0 +1,20 @@
+1.  Databases
+2.  table_metadata
+    1.  table_metadata_id
+    1.  database_id
+    2.  table_info
+2.  Data Source
+    1.  data_source_id
+    2.  table_metadata_id1
+    3.  table_metadata_id2
+    4.  query_string
+3.  Page
+    1.  page_id
+    2.  data_source_id
+    3.  page_template_string(Blob)
+4.  Layout
+    1.  layout_id
+    2.  page_id
+5.  Libraries
+    1.  
+6.  Server

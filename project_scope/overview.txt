@@ -5,20 +5,19 @@ Generation of JSON file which gets translated by the application
     3.  Generate report data structure, user assisted, with MySQL functions.
     4.  Allow user to type in his own query.
     5.  Save the progress of existing application.
-    
-2.  Workflow generation
-    0.  Record creation and reports linking
-    1.  Linked Create record user assisted(table1(session, selected on page) -> table2)
-    2.  Branching on a single page    
-    3.  Menu creation
-    4.  Pagination
-    
-3.  Layout creation
-    1.  Page Linking{access control} creation
-    2.  Header creation
-    3.  LeftNav
-    4.  RightNav
-    5.  Menu creation{link, function}
+    6.  Data Sources
+
+2.  Page creation
+    1.  Page {Data Source, Data Capture, Access Control}
+    2.  Header creation{LeftNav, Default Page}
+    3.  LeftNav{Page}
+    4.  Footer
+    5.  Menu creation{HeaderLink, Page}
+
+3.  Workflow generation
+    0.  Module Creation{Select Headers, LeftNav, Footer}
+    1.  Page Links
+    2.  Linked Create record user assisted(table1(session, selected on page) -> table2)
 
 4.  Libraries
     1.  PHP function Libraries
@@ -26,7 +25,7 @@ Generation of JSON file which gets translated by the application
     3.  CSS Libraries
     4.  D3 Libraries
 
-5. Server
+5.  Server
     1.  Table level{functions, access control}
     2.  Field level{functions(conversions), conditions, access control}
     3.  Session management{application state, access control}
